@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "example-server": {
+      "command": "uvx",
+      "args": ["example-package@latest"],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
