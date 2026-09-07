@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新能源课程报告 — 项目全景观览</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="scroll-progress"></div>
+  <nav class="navbar">
+    <div class="nav-brand">新能源报告</div>
+    <div class="nav-links">
+      <a href="#hero" class="nav-link active">概览</a>
+      <a href="#intro" class="nav-link">简介</a>
+      <a href="#structure" class="nav-link">目录结构</a>
+      <a href="#docs" class="nav-link">文档索引</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
+  </nav>
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-badges">
+        <span class="badge">LaTeX</span>
+        <span class="badge">新能源</span>
+        <span class="badge">课程报告</span>
+      </div>
+      <h1 class="hero-title">新能源课程报告</h1>
+      <p class="hero-subtitle">《新能源取代化石燃料成为能源主流的时间进程与条件分析》</p>
+    </div>
+  </section>
+  <section id="intro" class="section">
+    <h2 class="section-title">项目简介</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">📄</div>
+        <h3>报告主题</h3>
+        <p>分析在全球减排目标和能源转型背景下，新能源（风电、光伏等）何时以及在何种条件下能够取代化石燃料成为能源主流。基于 IEA、IRENA 等权威机构公开数据，从电力结构、成本变化、装机规模等维度进行系统分析。</p>
+      </div>
+    </div>
+  </section>
+  <section id="structure" class="section">
+    <h2 class="section-title">目录结构</h2>
+    <div class="tree-container">
+      <details open class="tree-node">
+        <summary>📁 new-energy-report-template/</summary>
+        <div class="tree-children">
+          <div class="tree-leaf">📁 src/single-file/ — LaTeX 源文件和编译产物</div>
+          <div class="tree-sub">├ complete-document.tex — LaTeX 源文件</div>
+          <div class="tree-sub">└ complete-document.pdf — 编译生成的 PDF</div>
+          <div class="tree-leaf">📄 README.md</div>
+          <div class="tree-leaf">📄 .gitignore</div>
+        </div>
+      </details>
+    </div>
+  </section>
+  <section id="docs" class="section">
+    <h2 class="section-title">文档索引</h2>
+    <div class="doc-list">
+      <a href="./README.md" class="doc-link">📄 README.md — 项目说明</a>
+      <a href="./CONTRIBUTING.md" class="doc-link">📄 CONTRIBUTING.md — 贡献指南</a>
+      <a href="./CHANGELOG.md" class="doc-link">📄 CHANGELOG.md — 更新日志</a>
+      <a href="./LICENSE" class="doc-link">📄 LICENSE — MIT 许可证</a>
+    </div>
+  </section>
+  <section class="section license-section">
+    <h2 class="section-title">许可证</h2>
+    <p>本项目基于 MIT License 开源。© 2026 LPK3215</p>
+  </section>
+  <button id="backToTop" class="back-to-top" title="返回顶部">↑</button>
+  <footer class="footer"><p>Generated on 2026-09-08</p></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
